@@ -1,0 +1,279 @@
+
+body {
+  background: #fff;
+}
+#app .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 999;
+}
+#app .nav .header {
+  width: 1200px;
+  height: 65px;
+  margin: 0 auto;
+}
+#app .nav .header .header-left {
+  float: left;
+}
+#app .nav .header .header-left img {
+  margin-top: 14px;
+}
+#app .nav .header .header-right ul {
+  float: right;
+}
+#app .nav .header .header-right ul li {
+  float: left;
+  line-height: 65px;
+}
+#app .nav .header .header-right ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #000;
+}
+#app .nav .header .header-right ul li a.shanghu:hover {
+  color: #fff;
+  background: #e94840;
+}
+#app .nav .header .header-right ul li a.shanghu {
+  background: #e94840;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px 6px;
+}
+#app .nav .header .header-right ul li a.off:hover {
+  color: #000000;
+}
+#app .nav .header .header-right ul li a:hover {
+  color: #f00;
+  background-color: #fff;
+  transition: color .5s;
+}
+#app .nav .header .header-right ul li a img {
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-right: -4px;
+}
+#app .nav .header .header-right ul li a span {
+  font-size: 16px;
+  font-weight: bold;
+}
+#app .nav .header .header-right ul li a .city {
+  margin-right: 20px;
+}
+#app .nav .header .header-right ul li a .city:hover {
+  color: #f00;
+}
+#app h2 {
+  padding-top: 70px;
+  width: 1200px;
+  line-height: 85px;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+#app .service-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+#app .service-center .center-left {
+  width: 970px;
+  float: left;
+  margin-bottom: 50px;
+}
+#app .service-center .center-left .tab-div ul li {
+  border: 1px solid #eaeaea;
+  float: left;
+  padding: 10px;
+  width: 210px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+}
+#app .service-center .center-left .tab-div ul li:hover {
+  box-shadow: 5px 5px 10px #ccc;
+}
+#app .service-center .center-left .tab-div ul li > img {
+  width: 210px;
+  height: 210px;
+}
+#app .service-center .center-left .tab-div ul li p {
+  height: 26px;
+  line-height: 26px;
+}
+#app .service-center .center-left .tab-div ul li p.p1 {
+  margin-top: 15px;
+}
+#app .service-center .center-left .tab-div ul li p.p1 span {
+  font-size: 16px;
+  font-weight: bold;
+}
+#app .service-center .center-left .tab-div ul li p.p1 span img {
+  width: 18px;
+  height: 17px;
+  margin-right: 8px;
+  margin-bottom: -1px;
+}
+#app .service-center .center-left .tab-div ul li p.p2 {
+  font-size: 12px;
+  color: #929292;
+}
+#app .service-center .center-left .tab-div ul li p.p2 .p2-2 {
+  float: right;
+}
+#app .service-center .center-left .get-list {
+  width: 100%;
+  height: 152px;
+  text-align: center;
+  margin: 0 auto;
+}
+#app .service-center .center-left .get-list span {
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  background: #fff;
+  border-radius: 5px;
+  color: #b1b1b1;
+  margin: 50px 5px;
+  border: 1px solid #e5e5e5;
+}
+#app .service-center .center-left .get-list span:hover {
+  background: #b1b1b1;
+  color: #fff;
+}
+#app .service-center .center-left .get-list span img {
+  width: 12px;
+  height: 7px;
+  opacity: .5;
+}
+#app .service-center .center-right {
+  float: right;
+  width: 230px;
+}
+#app .service-center .center-right .right-bom {
+  margin-top: 10px;
+  height: 290px;
+  background-image: url("../images/tuijianfuwushang_06.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#app .service-center .center-right .right-bom img {
+  width: 130px;
+  margin: 50px 0 0 50px;
+}
+#app .baozhang {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background: #fff;
+  color: #333;
+}
+#app .baozhang h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#app .baozhang h2 i {
+  color: #fb474f;
+  font-style: normal;
+  font-weight: bold;
+}
+#app .baozhang p {
+  font-size: 22px;
+  color: #3d3838;
+}
+#app .servi {
+  background: #fff;
+  padding-top: 20px;
+  height: 66px;
+}
+#app .servi ul {
+  width: 420px;
+  margin: 0 auto;
+}
+#app .servi ul li {
+  float: left;
+  width: 33.3333%;
+}
+#app .servi ul li img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#app .footer {
+  background: #fff;
+  width: 100%;
+  height: 120px;
+  clear: both;
+  padding-top: 50px;
+}
+#app .footer dl {
+  width: 1200px;
+  margin: 0 auto;
+}
+#app .footer dl dt {
+  font-size: 18px;
+  font-weight: 600;
+  float: left;
+}
+#app .footer dl dd {
+  float: left;
+  margin-left: 30px;
+  width: 1090px;
+  line-height: 30px;
+}
+#app .footer dl dd a {
+  width: 8.6%;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+}
+#app .footer dl dd a:hover {
+  color: #f00;
+  transition: color .5s;
+}
+#app .beian {
+  line-height: 30px;
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+}
+#app .beian p {
+  color: #898989;
+  font-size: 14px;
+}
+#app .beian .htit {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+  color: #1d1515;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+#app .beian .hezuo {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#app .beian .hezuo li {
+  float: left;
+  width: 11%;
+  height: 60px;
+  text-align: center;
+}
+#app .beian .hezuo li img {
+  width: 100px;
+}
+#app .beian .hezuo.first {
+  margin-left: 0;
+}

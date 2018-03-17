@@ -1,0 +1,376 @@
+#app .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 999;
+}
+#app .nav .header {
+  width: 1200px;
+  height: 65px;
+  margin: 0 auto;
+}
+#app .nav .header .header-left {
+  float: left;
+}
+#app .nav .header .header-left img {
+  margin-top: 14px;
+}
+#app .nav .header .header-right ul {
+  float: right;
+}
+#app .nav .header .header-right ul li {
+  float: left;
+  line-height: 65px;
+}
+#app .nav .header .header-right ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #000;
+}
+#app .nav .header .header-right ul li a.shanghu:hover {
+  color: #fff;
+  background: #e94840;
+}
+#app .nav .header .header-right ul li a.shanghu {
+  background: #e94840;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px 6px;
+}
+#app .nav .header .header-right ul li a.off:hover {
+  color: #000000;
+}
+#app .nav .header .header-right ul li a:hover {
+  color: #f00;
+  background-color: #fff;
+  transition: color .5s;
+}
+#app .nav .header .header-right ul li a img {
+  vertical-align: middle;
+  margin-bottom: 3px;
+  margin-right: -4px;
+}
+#app .nav .header .header-right ul li a span {
+  font-size: 16px;
+  font-weight: bold;
+}
+#app .nav .header .header-right ul li a .city {
+  margin-right: 20px;
+}
+#app .nav .header .header-right ul li a .city:hover {
+  color: #f00;
+}
+#app .content .content-left .bg ul {
+  height: 420px;
+}
+#app .content .content-left .bg ul li {
+  height: 420px;
+  width: 1349px;
+  background-image: url("../images/banner1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#app .content .content-left .po {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+#app .content .content-left .po ul {
+  margin-top: -30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+#app .content .content-left .po ul li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 4px;
+  background: rgba(0, 0, 0, 0.2);
+}
+#app .content .content-left .po ul li.on {
+  background: #ffffff;
+}
+#app .content .content-right {
+  position: relative;
+  bottom: 422px;
+  z-index: 2;
+}
+#app .content .content-right ul {
+  position: absolute;
+  z-index: 3;
+  left: 90px;
+  width: 180px;
+  background: #757881;
+}
+#app .content .content-right ul li {
+  position: relative;
+  padding-left: 45px;
+  height: 42px;
+  line-height: 42px;
+}
+#app .content .content-right ul li:hover {
+  background: #60646d;
+}
+#app .content .content-right ul li a {
+  font-weight: bold;
+  color: #fff;
+}
+#app .content .content-right ul li a span {
+  display: inline-block;
+  width: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align-last: justify;
+}
+#app .content .content-right ul li a img {
+  position: absolute;
+  top: 17px;
+  right: 33px;
+}
+#app .content .content-right ul li ul {
+  display: none;
+  position: absolute;
+  left: 180px;
+  top: 0;
+  height: 420px;
+  background: #fff;
+}
+#app .content .content-right ul li ul.on {
+  display: block;
+}
+#app .content .content-right ul li ul li:hover {
+  background: #fff;
+}
+#app .content .content-right ul li ul li a {
+  color: #000;
+}
+#app .content .content-right ul li ul li a:hover {
+  color: #e94840;
+}
+#app .box {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+#app .box .fff {
+  width: 1200px;
+  margin: 0 auto;
+}
+#app .box .fff .top {
+  text-align: center;
+  margin-top: 50px;
+}
+#app .box .fff .top p {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+}
+#app .box .fff .top span {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+  font-family: '幼圆';
+}
+#app .box .fff .top span a:hover {
+  color: #fb474f;
+  transition: color .5s;
+}
+#app .box .fff .bottom {
+  margin-top: 10px;
+}
+#app .box .fff .bottom .bottom-header {
+  text-align: right;
+}
+#app .box .fff .bottom .bottom-header span {
+  position: relative;
+  bottom: 20px;
+}
+#app .box .fff .bottom .bottom-header span a {
+  font-size: 18px;
+  color: #898989;
+  font-family: "幼圆";
+}
+#app .box .fff .bottom .bottom-header span a:hover {
+  color: #fb474f;
+  transition: color .5s;
+}
+#app .box .fff .bottom .bottom-footer {
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+#app .box .fff .bottom .bottom-footer a {
+  overflow: hidden;
+  position: relative;
+}
+#app .box .fff .bottom .bottom-footer a .bot {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  float: left;
+  width: 210px;
+  margin: 0 4px;
+  padding: 10px;
+}
+#app .box .fff .bottom .bottom-footer a .bot:hover {
+  box-shadow: 5px 5px 15px #ccc;
+}
+#app .box .fff .bottom .bottom-footer a .bot img {
+  width: 210px;
+  height: 210px;
+}
+#app .box .fff .bottom .bottom-footer a .bot .serviceName {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#app .box .fff .bottom .bottom-footer a .bot .description {
+  padding: 5px 0;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 58px;
+  width: 208px;
+}
+#app .box .fff .bottom .bottom-footer a .bot .price {
+  height: 20px;
+  line-height: 20px;
+  color: #fb474f;
+  font-size: 14px;
+}
+#app .box .fff .bottom .bottom-footer a .bot .price span {
+  font-size: 20px;
+}
+#app .box .fff .bottom .bottom-footer a .bot .price .btn {
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  float: right;
+  width: 76px;
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  background: #fb474f;
+  padding: 0;
+}
+#app .baozhang {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  background: #fff;
+  color: #333;
+}
+#app .baozhang h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+#app .baozhang h2 i {
+  color: #fb474f;
+  font-style: normal;
+  font-weight: bold;
+}
+#app .baozhang p {
+  font-size: 22px;
+  color: #3d3838;
+}
+#app .servi {
+  background: #fff;
+  padding-top: 20px;
+  height: 66px;
+}
+#app .servi ul {
+  width: 420px;
+  margin: 0 auto;
+}
+#app .servi ul li {
+  float: left;
+  width: 33.3333%;
+}
+#app .servi ul li img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+#app .footer {
+  background: #fff;
+  width: 100%;
+  height: 120px;
+  clear: both;
+  padding-top: 50px;
+}
+#app .footer dl {
+  width: 1200px;
+  margin: 0 auto;
+}
+#app .footer dl dt {
+  font-size: 18px;
+  font-weight: 600;
+  float: left;
+}
+#app .footer dl dd {
+  float: left;
+  margin-left: 30px;
+  width: 1090px;
+  line-height: 30px;
+}
+#app .footer dl dd a {
+  width: 8.6%;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+}
+#app .footer dl dd a:hover {
+  color: #f00;
+  transition: color .5s;
+}
+#app .beian {
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+}
+#app .beian p {
+  color: #898989;
+  font-size: 14px;
+}
+#app .beian .htit {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+  color: #1d1515;
+  font-weight: bold;
+  position: relative;
+  bottom: 20px;
+}
+#app .beian .hezuo {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#app .beian .hezuo li {
+  float: left;
+  width: 11%;
+  height: 60px;
+  text-align: center;
+}
+#app .beian .hezuo li img {
+  width: 100px;
+}
+#app .beian .hezuo.first {
+  margin-left: 0;
+}
