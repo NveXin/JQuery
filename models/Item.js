@@ -11,11 +11,11 @@ const itemSchema = new mongoose.Schema({
   orderCount:{type:Number},
   soldCount:{type:Number},
   commentCount:{type:Number},
+  profile:{type:String},
   accept:{type:String},
   praise:{type:String},
   imgUrl:{type:String},
   company:{type:String},
-  profile:{type:String}
 })
 
-module.exports = mongoose.model('item', itemSchema)
+module.exports = mongoose.model('itemprojects', itemSchema)

@@ -205,3 +205,119 @@ body {
   height: 210px;
   margin: 10px;
 }
+.footer {
+  width: 100%;
+}
+.footer .service {
+  width: 1200px;
+  height: 147px;
+  margin: 0 auto;
+}
+.footer .service .service-top {
+  width: 1200px;
+  text-align: center;
+}
+.footer .service .service-top h2 {
+  font-size: 30px;
+  font-family: "微软雅黑";
+  font-weight: 800;
+  color: #3d3838;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.footer .service .service-top h2 span {
+  color: #f00;
+  margin: 0 -10px 0 -10px;
+}
+.footer .service .service-top p {
+  display: block;
+  font-size: 22px;
+  color: #3d3838;
+}
+.footer .service .service-bottom .service-lists {
+  display: flex;
+  margin-left: 40px;
+  justify-content: center;
+}
+.footer .service .service-bottom .service-lists li {
+  margin: 10px 40px 0 0;
+}
+.footer .service .service-bottom .service-lists li img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.footer .city {
+  width: 100%;
+  height: 170px;
+}
+.footer .city .hot-city {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer .city .hot-city span {
+  float: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer .city .hot-city .many-city {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  width: 1090px;
+  line-height: 30px;
+  float: left;
+}
+.footer .city .hot-city .many-city a {
+  color: #333;
+  width: 98.1px;
+  height: 29.6px;
+  line-height: 29.6px;
+  text-align: center;
+}
+.footer .partner {
+  width: 1200px;
+  margin: 0 auto;
+  background: #d3d3d3;
+  padding-top: 30px;
+}
+.footer .partner p {
+  text-align: left;
+  font-weight: bold;
+  color: #1d1515;
+  font-size: 18px;
+}
+.footer .partner .business {
+  width: 1200px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.footer .partner .business li {
+  width: 120px;
+  height: 60px;
+  background: #fff;
+  margin: 12px 0 0 12px;
+}
+.footer .partner .business li img {
+  width: 100px;
+  height: 47.36px;
+  line-height: 47.36px;
+  margin-top: 5px;
+}
+.footer .partner .business .business-right {
+  margin-right: 6px;
+}
+.footer .partner .copyright {
+  text-align: start;
+  margin-top: -30px;
+  width: 1200px;
+  height: 40px;
+}
+.footer .partner .copyright span {
+  color: #898989;
+  line-height: 40px;
+  padding-left: 30px;
+}

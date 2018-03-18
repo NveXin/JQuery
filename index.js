@@ -10,6 +10,7 @@ app.use(express.static('public'))
 const shopModel = require('./models/Shop')
 const ServiceModel = require('./models/Service')
 const ItemModel = require('./models/Item')
+// const ProjectModel = require('./models/ItemProject')
 
 
 app.get('/getShopList',function (req,res) {
@@ -24,10 +25,20 @@ app.get('/getService',function (req,res) {
   })
 })
 
-app.get('/getService',function (req,res) {
+app.get('/getItem',function (req,res) {
   ItemModel.find({},function (err,data) {
     res.send({data:data})
   })
+})
+
+app.get('/getProject',function (req,res) {
+  const page = req.query.page
+  ItemModel.find({}).limit(10).skip((page-1)*10).exec((err, data) => {
+    if(!err){
+      res.send({data})
+    }
+  })
+
 })
 
 

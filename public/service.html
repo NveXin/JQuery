@@ -124,7 +124,8 @@
 </body>
 <script src="js/jquery.1.10.2.js"></script>
 <script id="temp1" type="text/html">
-  {{each data.data}}
+  <a href="./service-item.html">
+    {{each data.data}}
     <li>
       <img src="{{$value.imgUrl}}">
       <p class="p1">
@@ -137,7 +138,8 @@
         <span class="p2-2">{{$value.positiveRate}}</span>
       </p>
     </li>
-  {{/each}}
+    {{/each}}
+  </a>
 </script>
 
 <script type="text/javascript">
